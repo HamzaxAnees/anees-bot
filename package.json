@@ -1,0 +1,19 @@
+{
+  "name": "anees",
+  "version": "1.0.0",
+  "description": "this is simple bot",
+  "main": "index.js",
+  "type": "module" ,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "pino": "^9.7.0"
+  }
+}
