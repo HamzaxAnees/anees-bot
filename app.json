@@ -1,0 +1,21 @@
+{
+  "name": "Anees Bot",
+  "description": "A WhatsApp bot using Baileys and Node.js",
+  "repository": "https://github.com/HamzaxAnees/anees-bot",
+  "keywords": ["node", "whatsapp", "bot", "baileys"],
+  "env": {
+    "SESSION_ID": {
+      "description": "Paste your Baileys session string here.",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "stack": "heroku-22"
+}
